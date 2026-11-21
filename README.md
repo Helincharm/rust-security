@@ -4,6 +4,8 @@
 
 > Install Rust Security from https://github.com/Helincharm/rust-security. Follow INSTALL.md, connect it to my MCP client for the Rust project I choose, and verify the connection by scanning the included fixture and opening one finding at its source line. Tell me which client and project folder you configured.
 
+**[Try the live demo on Hugging Face](https://huggingface.co/spaces/Helinity/rust-security)** to explore a recorded scan and open each finding at its source line before installing.
+
 Rust Security helps reviewers trace a potential security issue to the Rust expression or locked dependency that triggered it. The CLI, desktop app and Model Context Protocol (MCP) server use the same local scanner. A standard scan reads the selected project without building it or running its code. It requires no model or API key.
 
 ![Desktop workspace showing five findings, zero analysis warnings and saved evidence for a formatted SQL query](docs/screenshots/workspace.png)
