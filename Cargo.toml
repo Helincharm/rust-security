@@ -1,0 +1,13 @@
+[workspace]
+members = ["crates/security-core","crates/security-cli","crates/static-analysis","crates/runtime-analysis"]
+exclude = ["apps/desktop/src-tauri"]
+resolver = "2"
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[workspace.dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"

@@ -1,0 +1,22 @@
+{
+  "v2": {
+    "model.safetensors": "e90163d7adda4e35a96fb057e34eb19290930de6973532eca782003e1c0dcf4b",
+    "config.json": "9341f41fec2027c26a5a022e65c9578980c3ecbb0f27d0aa8be3fd4c6af1143f",
+    "decision_policy.json": "4c14b07f6905865d9ded6798ffe97a288a5be4f6c14d6c44c4ad3b62781d9b5e",
+    "merges.txt": "5d346f84939a98df0cde902df7d60154b461cde1b90dc653ab9b81d74e752a4d",
+    "special_tokens_map.json": "2398bfc908dd21969fd2f589130c4dfb1b8c3a15c2644cd16b1cc38ecbce3d2b",
+    "tokenizer_config.json": "1ef6a74c7578f37be3ce2db766ee3163ab24c0635dc67a25738026d5fa54ef28",
+    "tokenizer.json": "09b2686466c2389fa0ad51768b6ead1e332d6a86711d7c84a2c1c1e5b998fa06",
+    "vocab.json": "8f1f0353a67cc54521111c8ca10f214ca4ccb8018b79126448e0ea95078c692e"
+  },
+  "v3": {
+    "config.json": "9341f41fec2027c26a5a022e65c9578980c3ecbb0f27d0aa8be3fd4c6af1143f",
+    "decision_policy.json": "d0d8dc1d62e836d0d4db8f9f57caadaf204c8e9d3312e7c808208f239acf17a6",
+    "merges.txt": "5d346f84939a98df0cde902df7d60154b461cde1b90dc653ab9b81d74e752a4d",
+    "model.safetensors": "7b76e470ad74eecb8e2e454f3712d2df46b90155c1bae56828291f34c2745ed4",
+    "special_tokens_map.json": "afd0eeffa37aaad39e467f2ec34023f41c3e3b2f432dadf88d835443fc408363",
+    "tokenizer.json": "09b2686466c2389fa0ad51768b6ead1e332d6a86711d7c84a2c1c1e5b998fa06",
+    "tokenizer_config.json": "a1f78353e7db457fdb63df1a3a46f21bd71efc72f1f36946c275478ec30d2885",
+    "vocab.json": "8f1f0353a67cc54521111c8ca10f214ca4ccb8018b79126448e0ea95078c692e"
+  }
+}

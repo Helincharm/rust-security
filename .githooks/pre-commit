@@ -1,0 +1,11 @@
+#!/bin/sh
+for interpreter in python3 python; do
+    if "$interpreter" -c 'import sys; sys.exit(sys.version_info < (3,9))' >/dev/null 2>&1; then
+        exec "$interpreter" scripts/release_guard.py
+    fi
+done
+if command -v py >/dev/null 2>&1; then
+    exec py -3 scripts/release_guard.py
+fi
+echo "Python 3 is required for the staged privacy check." >&2
+exit 1

@@ -1,0 +1,14 @@
+[package]
+name = "helinity"
+version.workspace = true
+edition.workspace = true
+publish = false
+
+[dependencies]
+security-core = {path="../security-core"}
+runtime-analysis = {path="../runtime-analysis"}
+clap = {version="4", features=["derive"]}
+ctrlc = "3"
+serde_json.workspace = true
+rpassword = "7"
+serde.workspace = true

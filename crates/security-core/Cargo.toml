@@ -1,0 +1,30 @@
+[package]
+name = "security-core"
+version.workspace = true
+edition.workspace = true
+publish = false
+
+[dependencies]
+serde.workspace = true
+serde_json.workspace = true
+static-analysis = { path = "../static-analysis" }
+cap-std = "3"
+cap-primitives = "3.4"
+directories = "6"
+rusqlite = { version = "0.37", features = ["bundled"] }
+uuid = { version = "1", features = ["v4"] }
+ureq = { version = "2.12", features = ["json"] }
+url = "2"
+toml = "0.8"
+
+[target.'cfg(windows)'.dependencies]
+keyring = { version = "3.6", features = ["windows-native"] }
+windows-sys = { version = "0.61", features=["Win32_Foundation","Win32_Storage_FileSystem"] }
+
+[dev-dependencies]
+tempfile = "3"
+[target.'cfg(target_os="linux")'.dependencies]
+keyring = { version = "3.6", features = ["linux-native"] }
+
+[target.'cfg(unix)'.dependencies]
+libc = "0.2"
